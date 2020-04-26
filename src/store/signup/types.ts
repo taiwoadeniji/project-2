@@ -1,6 +1,8 @@
 export interface UsersList{
     id: number,
-    name: string
+    name: string,
+    password: string,
+    interests: string
 }
 export interface SignupPageState {
     userslist:UsersList[]

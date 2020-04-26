@@ -4,15 +4,21 @@ const initialState: SignupPageState = {
     userslist: [
         {
             id: 1,
-            name:'usename'
+            name:'usename',
+            password: "1111",
+            interests: "2222"
         },
         {
             id: 2,
-            name:'password'
+            name:'password',
+            password: "1111",
+            interests: "2222"
         },
         {
             id: 3,
-            name:'interest'
+            name:'interest',
+            password: "1111",
+            interests: "2222"
         },
            
     ]
